@@ -24,4 +24,12 @@ class Person
   def name= (name_input)
     @name = name_input
   end
+  
+  def job 
+    @job
+  end
+  
+  def job= (job_title)
+    @job = job_title
+  end
 end
