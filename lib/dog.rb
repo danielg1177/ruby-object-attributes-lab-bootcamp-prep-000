@@ -15,3 +15,13 @@ class Dog
     @breed = breed_title
   end
 end
+
+class Person
+  def name
+    @name
+  end
+  
+  def name= (name_input)
+    @name = name_input
+  end
+end
